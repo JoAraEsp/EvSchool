@@ -1,4 +1,6 @@
-const { Materia, Alumno } = require('../models');
+const Alumno = require('../models/alumno');
+const Materia = require('../models/materia');
+
 
 exports.createMateria = async (req, res) => {
     try {

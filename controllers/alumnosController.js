@@ -1,4 +1,6 @@
-const { Alumno, Tutor, Materia } = require('../models');
+const Alumno = require('../models/alumno');
+const Tutor = require('../models/tutor');
+const Materia = require('../models/materia');
 
 exports.getAllAlumnos = async (req, res) => {
     try {
